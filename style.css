@@ -15,15 +15,17 @@
 }
 header{
     background-color: black;
-    padding: 40px;
     color: white;
     text-align: center;
 }
 h1{
-    font-size: 5em;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
     font-family: var(--fonte2);
 }
 #pprincipal{
+    padding-bottom: 50px;
     font-family: var(--fonte1);
 }
 a{
@@ -36,18 +38,21 @@ a:hover{
 }
 section > p{
     font-family: var(--fonte3);
-    font-size: 1.5em;
+    font-size: 3vw;
     padding: 50px 30px 30px 30px;
-    line-height: 50px;
+    line-height: 70px;
 }
-.psec{
-    color: white;
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.267);
 }
 #img01{
     width: 100%;
-    background:black url('background001.jpg') left center no-repeat fixed ;
+    background: url('background001.jpg') left center no-repeat fixed ;
     background-size: 100vw 100vh;
     margin-top: 90px;
+    color: white;
 }
 #img02{
     background:black url('background002.jpg') left center no-repeat fixed ;
