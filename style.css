@@ -38,7 +38,7 @@ a:hover{
 }
 section > p{
     font-family: var(--fonte3);
-    font-size: 3vw;
+    font-size: 3.5vw;
     padding: 50px 30px 30px 30px;
     line-height: 70px;
 }
